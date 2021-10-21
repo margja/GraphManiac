@@ -1,0 +1,32 @@
+/*!
+ * Start Bootstrap - SB Admin 2 v4.1.3 (https://startbootstrap.com/theme/sb-admin-2)
+ * Copyright 2013-2021 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-sb-admin-2/blob/master/LICENSE)
+ */
+
+// Import Custom SB Admin 2 Variables (Overrides Default Bootstrap Variables)
+@import "./theme/variables";
+
+// Import Bootstrap
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Import Font Awsome
+@import "../node_modules/@fortawesome/fontawesome-free/scss/brands.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/regular.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+
+// Import Custom SB Admin 2 Mixins and Components
+@import "./theme/mixins";
+@import "./theme/global";
+@import "./theme/utilities";
+
+// Custom Components
+@import "./theme/dropdowns";
+@import "./theme/navs";
+@import "./theme/buttons";
+@import "./theme/cards";
+@import "./theme/charts";
+@import "./theme/login";
+@import "./theme/error";
+@import "./theme/footer";
